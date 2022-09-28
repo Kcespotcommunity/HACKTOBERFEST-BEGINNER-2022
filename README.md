@@ -14,7 +14,7 @@ git checkout -b branch-name (To Create a branch)
 ```
 * Add the KCEspot main branch remote link to pull changes made by others
 ```markdown
-git remote add kcespot https://github.com/Kcespotcommunity/HACKTOBERFEST-EXPERT-2022.git
+git remote add kcespot https://github.com/Kcespotcommunity/HACKTOBERFEST-BEGINNER-2022.git
 ```
 * Make your changes (Choose from any task below)
 * Commit and Push
