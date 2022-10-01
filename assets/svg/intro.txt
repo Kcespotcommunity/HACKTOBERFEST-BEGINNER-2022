@@ -1,0 +1,1 @@
+SVG File should be in this file

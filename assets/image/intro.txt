@@ -1,0 +1,2 @@
+Images should be in this file
+like .png .jpeg .jpg etc

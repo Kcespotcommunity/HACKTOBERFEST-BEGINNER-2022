@@ -4,7 +4,7 @@ How to Contribute.
 
 * Fork the Repo
 
-* Clone the repo usind below syntax
+* Clone the repo using below syntax
 ```markdown
 git clone <url> (given in clone or download button)
 ```
