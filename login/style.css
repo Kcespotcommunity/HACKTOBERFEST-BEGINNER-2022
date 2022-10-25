@@ -2,18 +2,17 @@
 body,html{
     margin: 0;
     padding: 0;
-    font-family:'Coiny',cursive;
+    font-family: 'Roboto';font-size: 15px;
     background: #34495e;
     height: 100%;
   }
   .img-area{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fb%2Fc%2Fe%2F348617.jpg&f=1&nofb=1");
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/06/08/04/orange-3134148_1280.png");
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
     height: 100%;
-    filter : blur(4px)
   }
   .container{
     width:300px;
@@ -22,13 +21,14 @@ body,html{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background: #191919;
+    background: #ffffff;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 50px 50px;
   }
   .container h1{
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
     font-weight: 500;
   
   }
@@ -37,35 +37,21 @@ body,html{
     background: none;
     display: block;
     margin: 20px auto;
-    text-align: center;
-    border: 2px solid #3498db;
+    text-align: left;
+    border: 2px solid #383838;
     padding: 14px 10px;
     width: 200px;
     outline: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 24px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
     transition: 0.25s;
-  }
-  .container input[type="text"]:focus,.container input[type="password"]:focus{
-    width: 280px;
-    border-color: #2ecc71;
   }
   .container input[type="submit"]{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
+    margin: 0px auto;
     text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 25px;
+    padding: 10px 15px;
     outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    font-size: 17px;
-    font-family: 'Libre Baskerville', serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
   }
-  .container input[type="submit"]:hover{
-    background: #2ecc71;
-  }
+ 
