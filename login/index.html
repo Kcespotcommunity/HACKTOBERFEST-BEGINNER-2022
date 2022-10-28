@@ -7,15 +7,17 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
   </head>
   <body>
+    <script src="script.js"></script>
+    </script>
     <div class="img-area"></div>
-    <form class="container" action="http://127.0.0.1:3000/index.html" method="GET">
+    <form class="container"name="myForm" method="post">
       <div class="logo">
         <img src="assets/images/logo.png" width="125px">
       </div>
       <h1>LOGIN</h1>
-      <input type="text" name="" placeholder="Username">
-      <input type="password" name="" placeholder="Password">
-      <input type="submit" value="Login">
+      <input type="text" name="uname" placeholder="Username">
+      <input type="password" name="pass" placeholder="Password">
+      <input type="button" name="log" value="Login" onclick="myfunc()">
     </form>
   </body>
 </html>
